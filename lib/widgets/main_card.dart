@@ -37,7 +37,7 @@ class MainCard extends StatefulWidget {
 }
 
 class _MainCardState extends State<MainCard> {
-  FocusNode _focusNode = FocusNode();
+  final FocusNode _focusNode = FocusNode();
 
   @override
   void initState() {
@@ -98,3 +98,8 @@ class _MainCardState extends State<MainCard> {
     );
   }
 }
+
+
+
+
+

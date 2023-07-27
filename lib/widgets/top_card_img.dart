@@ -66,7 +66,7 @@ class _TopCardImageState extends State<TopCardImage> {
                     flex: 3,
                     child: Container(
                       width: MediaQuery.of(context).size.width,
-                      height: 300,
+                      height: 250,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: NetworkImage(successState.infos[widget.index].url),
@@ -84,9 +84,9 @@ class _TopCardImageState extends State<TopCardImage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        Text(successState.infos[widget.index].title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
-                        Text(successState.infos[widget.index].year, style: TextStyle(fontStyle: FontStyle.italic, fontSize: 10),),
-                        Text(successState.infos[widget.index].runtime, style: TextStyle(fontStyle: FontStyle.italic, fontSize: 10),),
+                        Text(successState.infos[widget.index].title, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 10),),
+                        Text(successState.infos[widget.index].year, style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 10),),
+                        Text(successState.infos[widget.index].runtime, style: const TextStyle(fontStyle: FontStyle.italic, fontSize: 10),),
                       ],
                     ),
                   ),
