@@ -31,7 +31,7 @@ try {
        InfoUiModel info = InfoUiModel.fromMap(VODresults[i] as Map<String,dynamic>);
        infos.add(info);
       }
-      print(infos);
+      // print(infos);
       emit(InfoFetchingSuccessfulState(infos: infos));
 
 } 

@@ -1,4 +1,7 @@
 
+
+
+
 import 'package:amazon_prime/widgets/main_card.dart';
 import 'package:amazon_prime/widgets/main_title.dart';
 import 'package:amazon_prime/widgets/top_card.dart';
@@ -76,6 +79,7 @@ final List <String> watchNextPhotos=[
                     ),
                     LimitedBox(
                       maxHeight: 120,
+                      
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: 
