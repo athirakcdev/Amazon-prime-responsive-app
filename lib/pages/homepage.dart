@@ -62,10 +62,10 @@ final List <String> watchNextPhotos=[
       body: SafeArea(
         child: Column(
           children: [
-            Expanded(flex:2,child: TopCard()),
+            Expanded(flex:3,child: TopCard()),
             
             Expanded(
-              flex: 3,
+              flex: 2,
               child: SingleChildScrollView(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
